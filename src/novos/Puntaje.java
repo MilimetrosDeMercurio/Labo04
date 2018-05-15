@@ -12,6 +12,7 @@ package novos;
 public class Puntaje {
     
     public int cant;
+    public Nave nave;
     
     //Aumenta el puntaje de cada jugador
     public void Puntaje(){}
