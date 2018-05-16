@@ -35,6 +35,8 @@ public class VentanaNiveles extends javax.swing.JPanel {
         jPanel1.setBackground(new java.awt.Color(204, 0, 0));
         jPanel1.setForeground(new java.awt.Color(255, 255, 102));
 
+        jButton1.setBackground(new java.awt.Color(255, 102, 51));
+        jButton1.setFont(new java.awt.Font("Lucida Sans Typewriter", 1, 24)); // NOI18N
         jButton1.setText("NIVEL 1");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -42,8 +44,13 @@ public class VentanaNiveles extends javax.swing.JPanel {
             }
         });
 
+        jButton2.setBackground(new java.awt.Color(255, 102, 102));
+        jButton2.setFont(new java.awt.Font("Lucida Sans Typewriter", 1, 24)); // NOI18N
         jButton2.setText("NIVEL 2");
 
+        jButton3.setBackground(new java.awt.Color(51, 255, 0));
+        jButton3.setFont(new java.awt.Font("Lucida Sans Typewriter", 0, 18)); // NOI18N
+        jButton3.setForeground(new java.awt.Color(0, 0, 0));
         jButton3.setText("INSTRUCCIONES");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -55,10 +62,10 @@ public class VentanaNiveles extends javax.swing.JPanel {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, 238, Short.MAX_VALUE)
                     .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(327, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(464, Short.MAX_VALUE)
-                .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jButton3)
                 .addGap(72, 72, 72))
         );
         jPanel1Layout.setVerticalGroup(
@@ -70,7 +77,7 @@ public class VentanaNiveles extends javax.swing.JPanel {
                 .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(67, 67, 67)
                 .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(103, Short.MAX_VALUE))
+                .addContainerGap(96, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
