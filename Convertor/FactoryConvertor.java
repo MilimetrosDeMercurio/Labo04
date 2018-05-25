@@ -1,7 +1,7 @@
 
 package Convertor;
 
-import Aritmetica.AbstractFactory;
+import Convertor.Convertidor.Aritmetica.AbstractFactory;
 
 /**
  *
