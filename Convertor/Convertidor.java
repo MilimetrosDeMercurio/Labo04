@@ -11,5 +11,11 @@ package Convertor;
  */
 public enum Convertidor {
     DECIMAL_BINARIO, Aritmetica;
+
+    static class Aritmetica {
+
+        public Aritmetica() {
+        }
+    }
     
 }
